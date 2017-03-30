@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.nisrulz:qreader:1.0.6'
+    compile 'com.github.kenglxn.QRGen:android:2.2.0'
+
+    // use updated version of vision framework (qreader lib uses old version that creates runtime crashes with other parts of the app)
+    compile 'com.google.android.gms:play-services-vision:9.6.1'
+}

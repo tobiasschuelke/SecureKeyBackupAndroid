@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/tobias/Documents/AndroidStudio/FreeUsableCryptographicKeyBackup/SecureKeyBackupAndroid/Lib/src/main/assets"/><source path="/home/tobias/Documents/AndroidStudio/FreeUsableCryptographicKeyBackup/SecureKeyBackupAndroid/Lib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/tobias/Documents/AndroidStudio/FreeUsableCryptographicKeyBackup/SecureKeyBackupAndroid/Lib/src/debug/assets"/></dataSet></merger>

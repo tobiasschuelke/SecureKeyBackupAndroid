@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Secret Sharing</string>
+    <string name="email_subject">Schlüsselteil von %1$s</string>
+    <string name="email_subject_backup">Sicherung: %1$s</string>
+    <string name="email_text">Hallo %1$s,\nIch schicke dir einen Schlüsselteil. Bitte speichere diese E-Mail und zeige es niemand anderem.\n\nSchöne Grüße,\n%2$s</string>
+    <string name="email_text_backup">Dies ist eine verschlüsselte Sicherung. Bitte drucke die angehängte Datei aus und lösche diese E-Mail.</string>
+    <string name="print_qr_code">Drucke einen QR-Code</string>
+    <string name="printed_qr_backup_hints">Hinweise:\n                                     • Dieser QR-Code repräsentiert eine verschlüsselte Sicherung.\n                                     • Lagere mehrere Kopien dieses Ausdrucks an verschiedenen Orten.\n                                     • Falls ein Ausdruck zerstört wird, kannst du einen anderen Ausdruck verwenden.</string>
+    <string name="printed_qr_backup_restore">Stelle diese Sicherung wieder her, indem du:\n                                     • einen Eintrag in dem \"BACKUPS\" Abschnitt der Anwendung auswählst.\n                                     • und den QR-Code auf diesem Ausdruck scannst.</string>
+    <string name="printed_qr_backup_title">Verschlüsselte Sicherung: \"%1$s\"</string>
+    <string name="printed_qr_hints">Hinweise:\n                                     • Dieser QR-Code darf nicht gescannt werden.\n                                     • Halte diesen Ausdruck geheim.</string>
+    <string name="printed_qr_owner">Dies ist ein Schlüsselteil von %1$s.\nBitte heb es an einem sicheren Ort auf und zeige es keiner anderen Person.</string>
+    <string name="qr_code">QR-Code</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/tobias/Documents/AndroidStudio/FreeUsableCryptographicKeyBackup/SecureKeyBackupAndroid/Lib/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/tobias/Documents/AndroidStudio/FreeUsableCryptographicKeyBackup/SecureKeyBackupAndroid/Lib/src/debug/jniLibs"/></dataSet></merger>
