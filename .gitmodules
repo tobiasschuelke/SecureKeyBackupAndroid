@@ -1,0 +1,3 @@
+[submodule "SecureKeyBackup"]
+	path = SecureKeyBackup
+	url = git@github.com:tobiasschuelke/SecureKeyBackup.git
